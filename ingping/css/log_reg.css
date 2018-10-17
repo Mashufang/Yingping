@@ -1,0 +1,230 @@
+body {
+  background: #F9F9F9;
+}
+
+#log-header {
+  height: 120px;
+  width: 90%;
+  margin: 0 auto;
+}
+#log-header #log-logo {
+  padding-top: 20px;
+  float: left;
+}
+#log-header #log-logo-r {
+  float: right;
+  margin-right: 50px;
+}
+#log-header #log-logo-r p {
+  width: 100%;
+  height: 28px;
+  border: 1px solid #FFB4A8;
+  text-align: center;
+  margin-top: 32px;
+  margin-bottom: 20px;
+  font-size: 12px;
+  color: #6C6C6C;
+  line-height: 25px;
+  background: #fef2f2;
+}
+#log-header #log-img img {
+  display: inline-block;
+}
+
+i {
+  display: block;
+  height: 16px;
+  text-align: right;
+  font-style: normal;
+}
+
+#log-main {
+  height: 580px;
+  background: url(../img/201705031858210830908.jpg) no-repeat center;
+}
+#log-main #l-main {
+  width: 28%;
+  float: right;
+  margin-right: 8%;
+  position: relative;
+}
+#log-main #l-main p {
+  height: 72px;
+  line-height: 72px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+}
+#log-main #l-main form {
+  background: #fff;
+  width: 100%;
+  height: 396px;
+  box-sizing: border-box;
+  padding: 5% 8%;
+}
+#log-main #l-main form h3 {
+  font-size: 18px;
+  color: #666666;
+  padding-bottom: 14px;
+}
+#log-main #l-main form input {
+  width: 100%;
+  height: 44px;
+  margin-top: 6px;
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  padding-left: 10px;
+  border-radius: 5px;
+}
+#log-main #l-main form p {
+  text-align: right;
+  font-size: 12px;
+  color: #999;
+  height: 50px;
+  line-height: 50px;
+  font-weight: 100;
+  margin-top: -15px;
+}
+#log-main #l-main form #log-sub {
+  background: #E91206;
+  border: 0;
+}
+#log-main #l-main form #log-btn {
+  border: 1px solid #E6E6E6;
+  background: #fff;
+  color: #7C7C7C;
+}
+#log-main #l-main form #ptn a {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/s_gallery_20141218.png);
+  background-repeat: no-repeat;
+}
+#log-main #l-main form #ptn {
+  margin-top: 8px;
+}
+#log-main #l-main form #ptn span {
+  float: left;
+  line-height: 24px;
+  font-size: 13px;
+}
+#log-main #l-main form .weichat {
+  background-position: 0 0;
+}
+#log-main #l-main form .qq {
+  background-position: 0 -87px;
+}
+#log-main #l-main form .alipay {
+  background-position: 0 -58px;
+}
+#log-main #l-main form .blog {
+  background-position: 0 -116px;
+}
+
+#log-footer {
+  height: 180px;
+  text-align: center;
+  font-size: 12px;
+  color: #919191;
+  line-height: 20px;
+  padding-top: 24px;
+  box-sizing: border-box;
+}
+#log-footer a {
+  color: #919191;
+  line-height: 30px;
+}
+
+.nul {
+  border: 0 !important;
+  background-color: inherit !important;
+}
+
+.reg_reg {
+  background-color: #0094E2 !important;
+  background-image: none !important;
+}
+
+#r_main {
+  width: 36%;
+  margin: 0 auto;
+  position: relative;
+  top: 20px;
+}
+#r_main p {
+  height: 72px;
+  line-height: 72px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 20px;
+  text-align: center;
+}
+#r_main form {
+  background: #fff;
+  width: 100%;
+  height: 430px;
+  box-sizing: border-box;
+  padding: 5% 8%;
+  border-radius: 5px;
+}
+#r_main form #rname {
+  margin-top: 0;
+}
+#r_main form span {
+  display: block;
+  height: 16px;
+  font-size: 12px;
+  text-align: right;
+  width: 90%;
+}
+#r_main form h3 {
+  font-size: 18px;
+  color: #666666;
+  padding-bottom: 14px;
+}
+#r_main form input {
+  width: 94%;
+  height: 38px;
+  margin-top: 8px;
+  border: 1px solid #E6E6E6;
+  box-sizing: border-box;
+  padding-left: 10px;
+  margin-left: 10px;
+  border-radius: 4px;
+}
+#r_main form p {
+  text-align: right;
+  font-size: 12px;
+  color: #999;
+  height: 50px;
+  line-height: 50px;
+  margin-top: -15px;
+}
+#r_main form #reg_sub {
+  background: #E91206;
+  border: 0;
+}
+#r_main form #reg_btn {
+  border: 1px solid #E6E6E6;
+  background: #fff;
+  color: #7C7C7C;
+}
+#r_main form #ptn a {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-image: url(../img/s_gallery_20141218.png);
+  background-repeat: no-repeat;
+}
+#r_main form #ptn {
+  margin-bottom: 8px;
+}
+#r_main form #ptn span {
+  float: left;
+  line-height: 24px;
+  font-size: 13px;
+}
+
+/*# sourceMappingURL=log_reg.css.map */
